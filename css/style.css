@@ -26,18 +26,21 @@ header p{
     letter-spacing: 2px;
     font-weight: 500;
     text-transform: uppercase;
+    top: 0;
 }
 header a:visited{
     color: white;
 }
 #agePolicy{
     position: absolute;
-    padding-top: 15px;
-    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 25px;
+    top: 0;
+    right: 0;
 }
 #agePolicy img{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 #banner{
     background-color: red;
@@ -161,6 +164,16 @@ footer{
 iframe{
     border-color: white;
     border-radius: 20px;
+}
+#hamburger{
+    left: 0;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+#hamburger img{
+    width: 60px;
+    height: 60px;
 }
 
 @media only screen and (max-width: 600px) {
